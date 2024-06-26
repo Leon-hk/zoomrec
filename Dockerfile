@@ -63,6 +63,7 @@ RUN apt-get update && \
         libxkbcommon-x11-0 && \
 # Install Zoom dependencies \
     apt-get install --no-install-recommends -y \
+        gnome-screenshot \
         libxcb-xinerama0 \
         libgbm1 \
         libxcb-cursor0 \
